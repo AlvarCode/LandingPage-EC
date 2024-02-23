@@ -7,10 +7,10 @@ let showNav = false;
 function setHeaderStyles() {
   if ((window.innerHeight > window.innerWidth) && (window.innerWidth <= 1024 && window.innerHeight < 1400)) {
     // De laptops a móviles
-    header.style.backgroundImage = darkLayerHero + ', url(./imgs/background-hero-mobile.jpg)';
+    header.style.backgroundImage = darkLayerHero + ', url(./imgs/background-hero-mobile-min.jpg)';
   } else {
     // De escritorios
-    header.style.backgroundImage = darkLayerHero + ', url(./imgs/background-hero-desktop.jpg)';
+    header.style.backgroundImage = darkLayerHero + ', url(./imgs/background-hero-desktop-min.jpg)';
   }
   
   if (window.innerWidth <= 550) {
